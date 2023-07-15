@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://blog.joseviloria.com/",
   author: "Jose Viloria",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Jose",
+  title: "El Blog del Jose",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,

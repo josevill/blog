@@ -217,6 +217,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"first-post-in-a-decade.md": {
+	id: "first-post-in-a-decade.md";
+  slug: "first-post-in-a-decade";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "how-to-configure-astropaper-theme.md": {
 	id: "how-to-configure-astropaper-theme.md";
   slug: "how-to-configure-astropaper-theme";
@@ -227,13 +234,6 @@ declare module 'astro:content' {
 "how-to-connect-astro-paper-blog-with-forestry-cms.md": {
 	id: "how-to-connect-astro-paper-blog-with-forestry-cms.md";
   slug: "how-to-connect-astro-paper-blog-with-forestry-cms";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"newpost.md": {
-	id: "newpost.md";
-  slug: "newpost";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -262,6 +262,13 @@ declare module 'astro:content' {
 "tailwind-typography.md": {
 	id: "tailwind-typography.md";
   slug: "tailwind-typography";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"template.md": {
+	id: "template.md";
+  slug: "template";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
